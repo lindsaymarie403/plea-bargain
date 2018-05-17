@@ -6,19 +6,171 @@ body {
   font-family: 'PT Serif', cursive;
 }
 
+/*navbar styles*/
 .navbar {
   background-color: #000000;
 }
 
-.header {
-  margin-top: 300px;
-  font-family: 'PT Serif', sans-serif;
+#navbar{
+  float: right;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+/*hero styles*/
+#hero-container {
+  position: relative;
+  width: 100%;
+}
+
+#hero {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin: 0px;
+}
+
+#hero-title {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 200px;
+  margin-bottom: 200px;
+  color: #ffffff;
+}
+
+#headline {
+  font-family: 'PT Serif', serif;
   font-size: 48px;
   font-weight: 700;
 }
- .sub {
-  font-family: 'PT Sans', serif;
+ #subhead {
+  font-family: 'PT Sans', sans-serif;
   font-size: 22px;
   max-width: 600px;
   margin-top: 15px;
+ }
+
+ /*content block styles*/
+ .block {
+   width: 100%;
+   background-color: #ffffff;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
+
+.block-dateline {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #272c68;
+  letter-spacing: .1em;
+}
+
+.block-headline {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block-more {
+  margin-top: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+}
+
+.block-img {
+  width: 100%;
+}
+
+.line {
+  height: 1px;
+  background-color: #a7a9ac;
+}
+
+/*check back*/
+#check-back {
+  width: 100%;
+  background-color: #272c68;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+#check-title {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#check-text {
+  color: #e6e7e8;
+  margin-bottom: 25px;
+}
+
+/*button*/
+.btn {
+  margin: 10px;
+}
+
+
+/*media queries*/
+@media only screen and (max-width: 1349px) and (min-width: 1200px) {
+   #hero-title {
+     padding-top: 150px;
+     margin-bottom: 150px;
+   }
+ }
+
+ @media only screen and (max-width: 1199px) and (min-width: 992px) {
+   #hero-title {
+     padding-top: 125px;
+     margin-bottom: 125px;
+   }
+ }
+
+ @media only screen and (max-width: 991px) and (min-width: 768px) {
+   #hero-title {
+     padding-top: 125px;
+     margin-bottom: 100px;
+   }
+   #headline {
+     font-size: 36px;
+     line-height: 1.1em;
+   }
+   #subhead {
+     font-size: 20px;
+   }
+ }
+
+ @media only screen and (max-width: 767px) {
+   #hero {
+     display: none;
+   }
+   #hero-title {
+     color: #000000;
+     padding-top: 100px;
+     margin-bottom: 50px;
+   }
+   #headline {
+     font-size: 32px;
+     line-height: 1.1em;
+   }
+   #subhead {
+     font-size: 18px;
+   }
  }
