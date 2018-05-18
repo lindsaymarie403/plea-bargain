@@ -62,6 +62,14 @@ body {
  }
 
  /*content block styles*/
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #272c68;
+}
+
  .block {
    width: 100%;
    background-color: #ffffff;
