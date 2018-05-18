@@ -186,6 +186,26 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.image-block {
+  border-top: 1px solid #a7a9ac;
+  border-bottom: 1px solid #a7a9ac;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.video-block {
+  background-color: #e6e7e8;
+  border: 2px solid #e6e7e8;
+}
+
+.video-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
 /*ABOUT PAGE*/
 .partners {
   width: 100%;
