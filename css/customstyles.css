@@ -53,12 +53,14 @@ body {
   font-family: 'PT Serif', serif;
   font-size: 48px;
   font-weight: 700;
+  text-shadow: 3px 3px 8px #000000;
 }
  #subhead {
   font-family: 'PT Sans', sans-serif;
   font-size: 22px;
   max-width: 600px;
   margin-top: 15px;
+  text-shadow: 3px 3px 8px #000000;
  }
 
  /*content block styles*/
@@ -185,7 +187,23 @@ a:hover {
 }
 
 /*ABOUT PAGE*/
+.partners {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.partners-tag {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #272c68;
+  letter-spacing: .1em;
+  margin-top: 75px;
+  margin-bottom: -25px;
+}
 
 /*media queries*/
 @media only screen and (max-width: 1349px) and (min-width: 1200px) {
