@@ -69,6 +69,13 @@ body {
    padding-bottom: 100px;
  }
 
+ .map {
+   width: 35%;
+   position: absolute;
+   left: 15px;
+   margin-top: -130px;
+ }
+
 .block-dateline {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
@@ -125,6 +132,20 @@ body {
 /*button*/
 .btn {
   margin: 10px;
+}
+
+/*sponsors*/
+#sponsor-box {
+  background-color: #000000;
+}
+
+#sponsors {
+  margin-left: 400px;
+}
+
+.sponsor {
+  height: 60px;
+  margin: 15px;
 }
 
 
