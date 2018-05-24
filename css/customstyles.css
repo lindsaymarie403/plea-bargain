@@ -11,20 +11,25 @@ body {
   background-color: #000000;
 }
 
-#navbar{
-  float: right;
+.navbar-brand {
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #e8e8e8;
+  letter-spacing: .05em;
 }
 
-.navbar-brand {
-  font-weight: 700;
+#navbar{
+  float: right;
 }
 
 .nav li {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .08em;
+    color: #e8e8e8;
 }
 
 /*hero styles*/
@@ -34,42 +39,29 @@ body {
 }
 
 #hero {
-  position: absolute;
+  position: relative;
   z-index: -1;
   width: 100%;
   margin: 0px;
+  top: 50px;
 }
 
-#hero-title {
-  position: relative;
-  width: 80%;
-  margin-left: 10%;
-  padding-top: 160px;
-  margin-bottom: 125px;
-  color: #ffffff;
-  max-width: 800px;
+#hero-mobile {
+  display: none;
 }
-
-#headline {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 90px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: .8em;
-
-}
- #subhead {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 24px;
-  line-height: .8em;
-  margin-top: 15px;
- }
 
  #sub-block {
-   padding: 50px;
-   background-color: #171a3d;
-   color: #ffffff;
-   font-family: 'PT Sans';
+   padding: 40px;
+   background-color: #d1d0db;
+   color: #1c1c1c;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 24px;
+   text-align: center;
+ }
+
+ #body-block {
+   border: 1px solid #b0afbc;
+   margin-bottom: 50px;
  }
 
  /*content block styles*/
@@ -237,55 +229,28 @@ a:hover {
 
 /*media queries*/
 @media only screen and (max-width: 1349px) and (min-width: 1200px) {
-   #hero-title {
-     padding-top: 150px;
-     margin-bottom: 150px;
-   }
  }
 
  @media only screen and (max-width: 1199px) and (min-width: 992px) {
-   #hero-title {
-     padding-top: 125px;
-     margin-bottom: 125px;
-   }
  }
 
  @media only screen and (max-width: 991px) and (min-width: 768px) {
-   #hero-title {
-     padding-top: 125px;
-     margin-bottom: 100px;
-   }
-   #headline {
-     font-size: 36px;
-     line-height: 1.1em;
-   }
-   #subhead {
-     font-size: 20px;
-   }
  }
 
  @media only screen and (max-width: 767px) {
    #hero-container {
-     background-color: #272c68;
      padding-bottom: 50px;
    }
-
    #hero {
      display: none;
    }
-   #hero-title {
-     color: #000000;
-     padding-top: 100px;
-     margin-bottom: 30px;
-     color: #ffffff;
-   }
-   #headline {
-     font-size: 32px;
-     line-height: .8em;
-   }
-   #subhead {
-     font-size: 18px;
-     line-height: 1.2em;
+   #hero-mobile {
+     display: block;
+     position: relative;
+     z-index: -1;
+     width: 100%;
+     margin: 0px;
+     top: 50px;
    }
    .block {
      padding-top: 50px;
