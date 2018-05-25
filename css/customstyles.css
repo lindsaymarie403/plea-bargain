@@ -151,6 +151,11 @@ a:hover {
 }
 
 /*bottom box*/
+#footer {
+  background-color: #181818;
+  width: 100%;
+  text-align: center;
+}
 #sponsor-box {
   background-color: #181818;
   width: 100%;
@@ -195,9 +200,16 @@ a:hover {
 }
 
 /*ARTICLE PAGE*/
+.head-strip {
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
 .article {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .article-headline {
@@ -205,6 +217,7 @@ a:hover {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 40px;
+  line-height: 1em;
 }
 
 .caption {
@@ -257,8 +270,13 @@ a:hover {
   text-transform: uppercase;
   color: #272c68;
   letter-spacing: .1em;
-  margin-top: 75px;
-  margin-bottom: -25px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 200px;
 }
 
 /*media queries*/
@@ -279,6 +297,16 @@ a:hover {
    }
    .block-dateline {
      font-size: 17px;
+   }
+   .article-headline {
+     font-size: 30px;
+   }
+   .article-text {
+     font-size: 19px;
+   }
+   .partners {
+     padding-top: 40px;
+     padding-bottom: 40px;
    }
  }
 
@@ -319,6 +347,16 @@ a:hover {
    #sponsor-box {
      height: 380px;
      padding: 30px;
+   }
+   .article-headline {
+     font-size: 28px;
+   }
+   .article-text {
+     font-size: 18px;
+   }
+   .partners {
+     padding-top: 35px;
+     padding-bottom: 35px;
    }
  }
 
@@ -396,5 +434,21 @@ a:hover {
     }
     .btn {
       margin-bottom: 30px;
+    }
+    #footer {
+      padding-bottom: 30px;
+    }
+    .article-headline {
+      font-size: 26px;
+    }
+    .article-text {
+      font-size: 17px;
+    }
+    .partners {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .logo-img {
+      display: none;
     }
  }
