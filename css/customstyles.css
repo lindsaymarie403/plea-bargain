@@ -156,14 +156,17 @@ a:hover {
 /*sponsors*/
 #sponsor-box {
   background-color: #181818;
+  width: 100%;
+  height: 85px;
 }
 
 #sponsors {
-  margin-left: 400px;
+  width: 539px;
+  margin:auto;
 }
 
 .sponsor {
-  height: 60px;
+  height: 55px;
   margin: 15px;
 }
 
@@ -330,5 +333,18 @@ a:hover {
     }
     #check-text {
       font-size: 17px;
+    }
+    #sponsor-box {
+      width: 100%;
+      height: 225px;
+      padding: 15px;
+    }
+    #sponsors {
+      width: 300px;
+      margin:auto;
+      text-align: center;
+    }
+    .sponsor {
+      margin: 5px;
     }
  }
